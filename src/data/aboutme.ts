@@ -42,7 +42,7 @@ export const aboutMe: AboutMe = {
   linkedinUsername: "mousuf",
   //twitterUsername: "janesmith",
   blogUrl: "https://substack.com/@mousufnayon",
-  cvUrl: "https://drive.google.com/file/d/1lo7aGCzTB4ZA1sIznQ63zRtIY2rEom64/view?usp=share_link",
+  cvUrl: "https://drive.google.com/file/d/1fkeezDd3glpEr2Vyt5mQdJhXMCkPov6r/view?usp=sharing",
   institutionUrl: "https://www.citystgeorges.ac.uk",
   // altName: "",
   // secretDescription: "I like dogs.",
