@@ -15,8 +15,8 @@ export const experienceData: Experience[] = [
     company: "Freelance, London",
     /*description:
       "Developed novel algorithms for causal structure learning in reinforcement learning settings",
-    advisor: "Peter Wang",
-    companyUrl: "https://deepmind.com",*/
+    advisor: "...",
+    companyUrl: "https://....com",*/
   },
   {
     date: "Oct 2023 - May 2024",
@@ -24,17 +24,17 @@ export const experienceData: Experience[] = [
     company: "Stealth Mode Startup, London",
     /*description:
       "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",*/
+    manager: "...",
+    companyUrl: "https://....com",*/
   },
   {
     date: "April 2020 - Oct 2021",
-    title: "Founder",
+    title: "Software Developer and R&D Consultant",
     company: "StemVCovid19, London",
     /*description:
       "Worked on improving robustness of large language models to distribution shifts",
-    manager: "Elise Brown",
-    companyUrl: "https://google.com",*/
+    manager: "...",
+    companyUrl: "https://....com",*/
   },
 
 ];

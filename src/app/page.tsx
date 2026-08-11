@@ -8,6 +8,8 @@ import { NewsEntry } from "@/components/news-entry";
 import { newsData } from "@/data/news";
 import { ExperienceEntry } from "@/components/experience-entry";
 import { experienceData } from "@/data/experience";
+import { VolunteerEntry } from "@/components/volunteer-entry";
+import { volunteerData } from "@/data/volunteer";
 import { PortfolioEntry } from "@/components/portfolio-entry";
 import { portfolioData } from "@/data/portfolio";
 import { sectionOrder, Section } from "@/data/section-order";
@@ -107,6 +109,24 @@ export default function Home() {
                             <ExperienceEntry
                               key={index}
                               experience={experience}
+                            />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Volunteer:
+                  return (
+                    experienceData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
+                          Volunteer
+                        </h2>
+                        <div className="space-y-12">
+                          {volunteerData.map((volunteer, index) => (
+                            <VolunteerEntry
+                              key={index}
+                              volunteer={volunteer}
                             />
                           ))}
                         </div>
