@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Noto_Serif, PT_Serif } from "next/font/google";
+// @ts-expect-error CSS side-effect imports are handled by Next.js at build time.
 import "@/app/globals.css";
 import { aboutMe } from "@/data/aboutme";
 import { customMetadata } from "@/data/title-description";
